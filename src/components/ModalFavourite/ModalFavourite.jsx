@@ -12,7 +12,7 @@ function ModalFavourite({ isOpen, onClose }) {
     <div className="w-screen h-screen fixed inset-0 bg-gray-500 bg-opacity-70 z-200">
       <div
         ref={popupFavRef}
-        className="w-[68%] h-auto ExtraSmall:w-[85%] sm:w-[75%] mobile-md:w-[60%] lg:w-[55%] ExtraLarge:w-[45%] xll:w-[42%] 2xl:w-[37%] 3xl:w-[35%] 4xl:w-[33%] min-h-[4rem] absolute overflow-hidden bg-slate-100 p-4 rounded-2xl shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-100"
+        className="w-[90%] h-auto sm:max-w-screen-sm min-h-[4rem] absolute overflow-hidden bg-slate-100 p-4 rounded-2xl shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-100"
       >
         <div className="flex items-center justify-between my-2 border-b-2 border-gray-500">
           <h1 className="text-lg ExtraSmall:text-xl sm:text-2xl font-bold text-center my-3 text-gray-800">

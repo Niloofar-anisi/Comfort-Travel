@@ -36,7 +36,7 @@ export function Login({ isOpen, onClose }) {
     <div className="w-screen h-screen fixed inset-0 bg-gray-500 bg-opacity-70 z-200">
       <div
         ref={popupLoginRef}
-        className="w-[80%] ExtraSmall:w-[75%] sm:w-[65%] mobile-md:w-[55%] Large:w-[45%] xl:w-[35%] 2xl:w-[30%] min-h-[4rem] absolute h-auto overflow-auto bg-slate-100  sm:p-4 rounded-2xl shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-100 popup-enter "
+        className="w-4/5 ExtraSmall:max-w-screen-ExtraSmall min-h-[4rem] absolute h-auto overflow-auto bg-slate-100  sm:p-4 rounded-2xl shadow-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-100 popup-enter "
       >
         <button onClick={onClose} className="p-4 sm:p-0">
           <span>
